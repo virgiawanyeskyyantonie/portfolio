@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Virgiawan Yesky Yantonie's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload" onload="displayYear()">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<img src="images/pp.jpg">
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Virgiawan's Portfolio</h1>
+								<p>Guru PPKN</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Intro</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Intro</h2>
+								<section id="first" class="special">
+									<header class="major">
+										<h2>EDUCATION</h2>
+									</header>
+									<ul class="features">
+										<li>
+											<a href="https://www.unila.ac.id" target="_blank">
+												<div><img src="images/unila.jfif" alt=""></div>
+												<h3>LAMPUNG UNIVERSITY<br>OF INDONESIA</h3>
+											</a>
+											<p>Civics Education<br> September 2015 - Februari 2021 <br>GPA: 3.32/4.0</p>
+										</li>
+									</ul>
+								</section>
+								<section id="second" class="special">
+									<header class="major">
+										<h2>TECHNICAL SKILL</h2>
+									</header>
+									<ul class="statistics">
+										<li class="style1">
+											<img src="images/office.jpg" alt="">
+											<strong>Ms. Office</strong>
+										</li>
+										<li class="style2">
+											<img src="images/canva.png" alt="">
+											<strong>Canva</strong>
+										</li>
+									</ul>
+								</section>	
+								<section id="third" class="special">
+									<header class="major">
+										<h2>SOFT SKILL</h2>
+									</header>
+									<ul class="statistics">
+										<li class="style2">
+											<img src="images/collaboration.webp" alt="">
+											<strong>Team Work</strong>
+										</li>
+										<li class="style3">
+											<img src="images/communication.jpeg" alt="">
+											<strong>Communication</strong>
+										</li>
+										<li class="style4">
+											<img src="images/presentation.jpeg" alt="">
+											<strong>Presentation</strong>
+										</li>
+									</ul>
+								</section>
+								<section id="fourth" class="special">
+									<header class="major">
+										<h2>EXPERIENCE</h2>
+									</header>
+									<ul class="features">
+										<li>
+											<a href="https://www.cimbniaga.co.id" target="_blank">
+												<div><img src="images/ptnusa.jfif" alt=""></div>
+												<h3>PT Nusa Raya Cipta<br>Posisi K3 Lampung City Mall</h3>
+											</a>
+										</li>
+									</ul>
+									
+									<ul class="features">
+										<li>
+											<a href="https://www.cimbniaga.co.id" target="_blank">
+												<div><img src="images/smautama.png" alt=""></div>
+												<h3>SMA UTAMA 2 BANDAR LAMPUNG<br>GURU MUSIK, PKN, AGAMA</h3>
+											</a>
+										</li>
+									</ul>
+								</section>				
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<form method="post" action="https://formspree.io/f/undefine">
+									
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="email" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="http://wa.me//+6288267155609" target="_blank" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
+									<li><a href="https://www.linkedin.com/in/virgiawanyesky-virgiawanyesky-051143297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+								</ul>
+							</article>
+				</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; <span id="currentYear"></span> | Virgiawan Yesky Yantonie.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+		        <script>
+				function displayYear() {
+					var yearElement = document.getElementById("currentYear");
+					var currentYear = new Date().getFullYear();
+					yearElement.innerHTML = currentYear;
+				}
+			</script>
+
+	</body>
+</html>
